@@ -32,27 +32,27 @@ function Content() {
     <div class="row">
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in"/>
+        <img src={require ("./assets/img/clients/client-1.png")}class="img-fluid" alt="" data-aos="zoom-in"/>
       </div>
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100"/>
+        <img src={require("./assets/img/clients/client-2.png")} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100"/>
       </div>
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200"/>
+        <img src={require("./assets/img/clients/client-3.png")} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200"/>
       </div>
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300"/>
+        <img src={require("./assets/img/clients/client-4.png")} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300"/>
       </div>
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400"/>
+        <img src={require("./assets/img/clients/client-5.png")} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400"/>
       </div>
 
       <div class="col-lg-2 col-md-4 col-6">
-        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+        <img src={require("./assets/img/clients/client-6.png")} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
       </div>
 
     </div>
@@ -95,7 +95,7 @@ function Content() {
 
     <div class="row">
       <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-        <img src="assets/img/counts-img.svg" alt="" class="img-fluid"/>
+        <img src={require("./assets/img/counts-img.svg")} alt="" class="img-fluid"/>
       </div>
 
       <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
